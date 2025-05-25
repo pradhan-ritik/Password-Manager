@@ -15,3 +15,6 @@ def generate_password(length: int = 14) -> str:
 
     return password
 
+
+if __name__ == "__main__":
+    print(generate_password())
